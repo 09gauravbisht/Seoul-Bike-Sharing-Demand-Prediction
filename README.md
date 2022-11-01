@@ -66,6 +66,14 @@ min_samples_split : 50
 
 n_estimators : 80
 
+XGBoost:
+eval_metric : rmse
+
+max_depth : 6
+
+n_estimators : 500
+
+
 OBSERVATIONS:
 * The feature variable Functioning Day has the highest impact on the dependent variable Rented Bike Count.
 * In Random Forest and GBM, Temperature is making an impact while Rainfall is the second most important factor in XGBOOST.
@@ -77,13 +85,6 @@ CONCLUSION:
 * XGboost gives the least MAE among the models. The most important features for predicting the dependent variable (number of hired bikes) for XGBoost are functioning day, rainfall, season, and temperature.
 * This project will be helpful for the company to predict the hourly bike demand and enhance the user experience.
 
-
-XGBoost:
-eval_metric : rmse
-
-max_depth : 6
-
-n_estimators : 500
 
 
 
