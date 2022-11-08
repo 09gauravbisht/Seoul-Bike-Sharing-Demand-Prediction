@@ -84,9 +84,3 @@ CONCLUSION:
 * In this prediction we used different models and after getting the evaluation score we came to a conclusion that out of all the models used XGBOOST performs the best with the train R2 score of 0.96 & the test R2 of 0.87.
 * XGboost gives the least MAE among the models. The most important features for predicting the dependent variable (number of hired bikes) for XGBoost are functioning day, rainfall, season, and temperature.
 * This project will be helpful for the company to predict the hourly bike demand and enhance the user experience.
-
-
-
-
-
-
